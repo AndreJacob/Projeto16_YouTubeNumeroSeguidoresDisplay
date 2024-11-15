@@ -1,0 +1,8 @@
+Peguei como referência para criar a chave API esse vídeo, é mais antigo mas dá pra ter referência.
+link: https://www.youtube.com/watch?v=LLAZUTbc97I
+
+Problemas:
+O valor no display ficou invertido, mando escrever 270 e escreve 072
+Corrigi isso no python na hora de enviar o MQTT.
+
+A principio queria pegar uma api do tiktok, mas ainda não consegui.
