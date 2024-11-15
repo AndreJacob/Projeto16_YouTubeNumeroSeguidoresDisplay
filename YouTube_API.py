@@ -23,7 +23,7 @@ client.connect(mqtt_broker, mqtt_port, 60)
 
 # Substitua com o ID do canal e sua chave de API
 channel_id = 'UCoyPRGrpP_G7i2sgEytbnBQ'  # Exemplo de canal
-api_key = 'AIzaSyAFaHYQ7A7prX7aRosblm6oAL_dQxZN0KY'
+api_key = 'Sua chave api cadastrada no youtube'
 
 while True:
     subscribers = get_channel_subscribers(channel_id, api_key)

@@ -11,9 +11,9 @@
 MD_MAX72XX mx = MD_MAX72XX(MD_MAX72XX::FC16_HW, DATA_PIN, CLOCK_PIN, LOAD_PIN, MAX_DEVICES);
 
 const char* ssid = "Cobertura";  // Rede WiFi
-const char* password = "Dev@!2024"; // Senha WiFi
+const char* password = "xxx"; // Senha WiFi
 const char* mqtt_server = "10.0.0.97"; // Endereço do broker MQTT
-const char* topic = "automacao84"; // Tópico MQTT
+const char* topic = "automa"; // Tópico MQTT
 
 WiFiClient espClient;
 PubSubClient client(espClient);
